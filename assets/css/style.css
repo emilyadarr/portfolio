@@ -1,0 +1,89 @@
+:root {
+  --primary-color: #000000;
+  --secondary-color: #57C6A6;
+  --tertiary-color: #F2F2F2;
+  --dark-teal: #249977;
+  --light-teal: #98D4C3;
+}
+
+body {
+  color: var(--primary-color);
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+/* header */
+header {
+  padding: 10px 35px;
+  background-color: var(--tertiary-color);
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  top: 0;
+  align-items: center;
+}
+
+header h1 {
+  font-weight: bold;
+  font-size: 36px;
+  color: var(--primary-color);
+  margin: 0;
+}
+
+header a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+header nav {
+  margin: 7px 0;
+}
+
+header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+header nav ul li a {
+  padding: 10px 15px;
+  font-weight: lighter;
+  font-size: 1.55vw;
+}
+
+header nav ul li a:hover {
+  background: var(--primary-color);
+  color: var(--secondary-color);
+  border-radius: 20px;
+}
+
+/* footer */
+footer {
+  background: var(--secondary-color);
+  width: 100%;
+  padding: 10px 35px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+footer h2 {
+  color: var(--primary-color);
+  font-size: 20px;
+  margin: 0;
+}
+
+section {
+  padding: 60px;
+}
+
+/* hero style start */
+.hero {
+  background-image: url("../images/hero-bg.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  background-position: 80%;
+}
