@@ -96,12 +96,15 @@ section {
   flex-wrap: wrap;
   align-items: flex-start;
   background-position: 80%;
+  padding: 80px;
+  position: relative;
 }
 
 .hero h2 {
   color: var(--secondary-color);
-  display: flex;
-  text-align: right;
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
 }
 
 .section-title {
