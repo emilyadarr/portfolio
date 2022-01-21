@@ -104,7 +104,8 @@ section {
 }
 
 .bio img {
-  width: 30%;
+  height: 300px;
+  width: 300px;
   display: flex;
   flex-wrap: wrap;
   border: 6px solid var(--dark-teal);
